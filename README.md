@@ -17,6 +17,7 @@ Tutorial sobre la configuración de las herramientas necesarias para la asignatu
 5. MarkDown & Gitbook
     * MarkDown
     * Gitbook
+    * Pandoc
 
 # Miembros del equipo
 
