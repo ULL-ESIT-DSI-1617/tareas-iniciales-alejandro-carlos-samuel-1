@@ -8,11 +8,14 @@ Para conocer este lenguaje, se ha seguido este [tutorial](https://guides.github.
 
 ## GitBook
 
+[GitBook](https://gitbook.com) fue creado a mediados de 2014 con la visión de crear una solución moderna y simple para la documentación, la escritura digital y la publicación.
+
+
 ## Pandoc
 
-[Pandoc](http://pandoc.org) es un conversor de documentos libre y de código abierto, mayormente usado como una herramienta de escritura (especialmente por académicos), y es una base para la publicación de flujos de trabajo. Fue creado originalmente por John MacFarlane, un profesor de Filosofía en la Universidad de California, Berkeley.
+[Pandoc](http://www.pandoc.org) es un conversor de documentos libre y de código abierto, mayormente usado como una herramienta de escritura (especialmente por académicos), y es una base para la publicación de flujos de trabajo. Fue creado originalmente por John MacFarlane, un profesor de Filosofía en la Universidad de California, Berkeley.
 
-Existen diferentes maneras de [instalar Pandoc](http://http://pandoc.org/installing.html) dependiendo del sistema operativo que se utilice. En el caso de Mac OS se debe ejecutar `brew install pandoc`.
+Existen diferentes maneras de [instalar Pandoc](http://pandoc.org/installing.html) dependiendo del sistema operativo que se utilice. En el caso de Mac OS se debe ejecutar `brew install pandoc`.
 
 Para transformar un fichero en formato `MarkDown` a un fichero `html` ejecutamos el siguiente comando:
 
