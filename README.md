@@ -17,10 +17,11 @@ Tutorial sobre la configuración de las herramientas necesarias para la asignatu
 5. MarkDown & Gitbook
     * MarkDown
     * Gitbook
+    * gh-pages
     * Pandoc
 
 # Miembros del equipo
 
-* [Alejandro Arzola](github.com/aleag)
-* [Carlos de Armas](github.com/alu0100816167)
-* [Samuel Valcárcel](github.com/cosaca)
+* [Alejandro Arzola](http://github.com/aleag)
+* [Carlos de Armas](http://github.com/alu0100816167)
+* [Samuel Valcárcel](http://github.com/cosaca)
