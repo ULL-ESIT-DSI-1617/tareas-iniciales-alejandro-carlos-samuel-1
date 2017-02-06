@@ -4,7 +4,11 @@
 
 ![Página Atom](/img/atom.png)
 
-Se puede observar en la imagen que se muestra a continuación como el usuario ve dicha herramienta una vez que ha sido instalada
+Se puede observar en la imagen que se muestra a continuación como el usuario ve dicha herramienta una vez que ha sido instalada. Una de las propiedades de este IDE, es la utilización de paquetes creados por la propia comunidad, a disposición del usuario. En la captura se pueden observar:
+
+* markdown-preview-plus que nos permite ver una vista previa del Markdown introducido.
+* Atom-beautify, un paquete para que el código creado se vea de identado de manera más clara.
+* Por último, markdown-pdf que recoge el texto en formato markdown y lo pasa a PDF.
 
 ![Captura Atom](/img/atom2.png)
 
