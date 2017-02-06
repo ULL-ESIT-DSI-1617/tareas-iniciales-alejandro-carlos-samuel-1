@@ -178,9 +178,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../capitulo_3/contenido.md">
+        <li class="chapter " data-level="1.4.1" data-path="../capitulo_3/contenido.html">
             
-                <span>
+                <a href="../capitulo_3/contenido.html">
             
                     
                     Editores e IDE's necesarios
@@ -310,9 +310,20 @@
 <p><code>Markdown</code> es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la m&#xE1;xima legibilidad y facilidad de publicaci&#xF3;n tanto en su forma de entrada como de salida, inspir&#xE1;ndose en muchas convenciones existentes para marcar mensajes de correo electr&#xF3;nico usando texto plano.</p>
 <p>Para conocer este lenguaje, se ha seguido este <a href="https://guides.github.com/features/mastering-markdown" target="_blank">tutorial</a>.</p>
 <h2 id="gitbook">GitBook</h2>
+<p><a href="https://gitbook.com" target="_blank">GitBook</a> fue creado a mediados de 2014 con la visi&#xF3;n de crear una soluci&#xF3;n moderna y simple para la documentaci&#xF3;n, la escritura digital y la publicaci&#xF3;n.</p>
+<p><code>Gitbook</code> es una manera f&#xE1;cil de crear, publicar y hostear libros. Es la soluci&#xF3;n m&#xE1;s f&#xE1;cil de publicar tu contenido y colaborar en &#xE9;l.</p>
+<p>Para realizar la instalaci&#xF3;n mediante npm:</p>
+<p><code>$ sudo npm install gitbook-cli -g</code></p>
+<p>Para inicializar la estructura del libro generando autom&#xE1;ticamente el SUMMARY.md y README.md (introducci&#xF3;n al libro):</p>
+<p><code>$ gitbook init</code></p>
+<p>Para obtener una vista previa del libro de manera local, utilizamos <code>$ gitbook serve</code>.</p>
+<p>Para generar la p&#xE1;gina web sobre el libro: <code>$ gitbook build</code>.</p>
+<p><img src="../img/gitbook.png" alt="gitbook"></p>
+<h2 id="gh-pages">gh-pages</h2>
+<p>Se trata de la rama del repositorio donde se publicar&#xE1; la documentaci&#xF3;n de <code>gitbook</code>.</p>
 <h2 id="pandoc">Pandoc</h2>
-<p><a href="http://pandoc.org" target="_blank">Pandoc</a> es un conversor de documentos libre y de c&#xF3;digo abierto, mayormente usado como una herramienta de escritura (especialmente por acad&#xE9;micos), y es una base para la publicaci&#xF3;n de flujos de trabajo. Fue creado originalmente por John MacFarlane, un profesor de Filosof&#xED;a en la Universidad de California, Berkeley.</p>
-<p>Existen diferentes maneras de <a href="http://http://pandoc.org/installing.html" target="_blank">instalar Pandoc</a> dependiendo del sistema operativo que se utilice. En el caso de Mac OS se debe ejecutar <code>brew install pandoc</code>.</p>
+<p><a href="http://www.pandoc.org" target="_blank">Pandoc</a> es un conversor de documentos libre y de c&#xF3;digo abierto, mayormente usado como una herramienta de escritura (especialmente por acad&#xE9;micos), y es una base para la publicaci&#xF3;n de flujos de trabajo. Fue creado originalmente por John MacFarlane, un profesor de Filosof&#xED;a en la Universidad de California, Berkeley.</p>
+<p>Existen diferentes maneras de <a href="http://pandoc.org/installing.html" target="_blank">instalar Pandoc</a> dependiendo del sistema operativo que se utilice. En el caso de Mac OS se debe ejecutar <code>brew install pandoc</code>.</p>
 <p>Para transformar un fichero en formato <code>MarkDown</code> a un fichero <code>html</code> ejecutamos el siguiente comando:</p>
 <p><code>pandoc file1.md -f markdown -t html -s -o file2.html</code></p>
 
@@ -354,7 +365,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"MarkDown & Gitbook","level":"1.6.1","depth":2,"previous":{"title":"Capítulo 5","level":"1.6","depth":1,"path":"capitulo_5/README.md","ref":"capitulo_5/README.md","articles":[{"title":"MarkDown & Gitbook","level":"1.6.1","depth":2,"path":"capitulo_5/contenido.md","ref":"capitulo_5/contenido.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"capitulo_5/contenido.md","mtime":"2017-02-05T13:41:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-05T13:51:57.555Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"MarkDown & Gitbook","level":"1.6.1","depth":2,"previous":{"title":"Capítulo 5","level":"1.6","depth":1,"path":"capitulo_5/README.md","ref":"capitulo_5/README.md","articles":[{"title":"MarkDown & Gitbook","level":"1.6.1","depth":2,"path":"capitulo_5/contenido.md","ref":"capitulo_5/contenido.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"capitulo_5/contenido.md","mtime":"2017-02-06T09:48:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-06T09:48:35.611Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -10,6 +10,25 @@ Para conocer este lenguaje, se ha seguido este [tutorial](https://guides.github.
 
 [GitBook](https://gitbook.com) fue creado a mediados de 2014 con la visión de crear una solución moderna y simple para la documentación, la escritura digital y la publicación.
 
+`Gitbook` es una manera fácil de crear, publicar y hostear libros. Es la solución más fácil de publicar tu contenido y colaborar en él.
+
+Para realizar la instalación mediante npm:
+
+`$ sudo npm install gitbook-cli -g`
+
+Para inicializar la estructura del libro generando automáticamente el SUMMARY.md y README.md (introducción al libro):
+
+`$ gitbook init`
+
+Para obtener una vista previa del libro de manera local, utilizamos `$ gitbook serve`.
+
+Para generar la página web sobre el libro: `$ gitbook build`.
+
+![gitbook](/img/gitbook.png)
+
+## gh-pages
+
+Se trata de la rama del repositorio donde se publicará la documentación de `gitbook`.
 
 ## Pandoc
 
