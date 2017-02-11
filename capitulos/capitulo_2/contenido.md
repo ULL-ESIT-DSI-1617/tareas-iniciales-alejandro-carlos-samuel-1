@@ -17,3 +17,12 @@
 Además de la página web existe una versión de escritorio.
 
 ![github-desktop](/img/githubdesktop.png)
+
+## Hub
+
+Hub es una herramienta de línea de comandos que envuelve git con el fin de ampliarlo con funciones y comandos adicionales que facilitan el trabajo con GitHub.
+
+A continuación se muestran algunos comandos útiles:
+
+* `$ hub create <nombre>`: crea un repositorio con el nombre indicado en github.
+* `$ hub browse`: abre en el navegador por defecto la página del repositorio en github.

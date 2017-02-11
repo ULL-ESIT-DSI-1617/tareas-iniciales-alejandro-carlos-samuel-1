@@ -8,6 +8,7 @@ Tutorial sobre la configuración de las herramientas necesarias para la asignatu
 2. Control de versiones
     * Git
     * Github
+    * Hub
 3. Editores & IDE's
     * Atom
     * c9
