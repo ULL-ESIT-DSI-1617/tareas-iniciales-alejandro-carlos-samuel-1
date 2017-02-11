@@ -1,0 +1,407 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Node.js y npm · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../capitulo_5/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introducción
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../capitulo_1/">
+            
+                <a href="../capitulo_1/">
+            
+                    
+                    Capítulo 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../capitulo_1/contenido.html">
+            
+                <a href="../capitulo_1/contenido.html">
+            
+                    
+                    Información personal
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../capitulo_2/">
+            
+                <a href="../capitulo_2/">
+            
+                    
+                    Capítulo 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../capitulo_2/contenido.html">
+            
+                <a href="../capitulo_2/contenido.html">
+            
+                    
+                    Control de versiones
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../capitulo_3/">
+            
+                <a href="../capitulo_3/">
+            
+                    
+                    Capítulo 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../capitulo_3/contenido.html">
+            
+                <a href="../capitulo_3/contenido.html">
+            
+                    
+                    Editores e IDE's necesarios
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Capítulo 4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="contenido.html">
+            
+                <a href="contenido.html">
+            
+                    
+                    Node.js y npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../capitulo_5/">
+            
+                <a href="../capitulo_5/">
+            
+                    
+                    Capítulo 5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../capitulo_5/contenido.html">
+            
+                <a href="../capitulo_5/contenido.html">
+            
+                    
+                    MarkDown & Gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Node.js y npm</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="nodejs">Node.js</h1>
+<h2 id="&#xBF;qu&#xE9;-es-nodejs">&#xBF;Qu&#xE9; es Node.js?</h2>
+<p>Node.js es un entorno de ejecuci&#xF3;n para JavaScript construido con el motor de JavaScript V8 de Chrome. Node.js usa un modelo de operaciones E/S sin bloqueo y orientado a eventos, que lo hace liviano y eficiente. El ecosistema de paquetes de Node.js, npm, es el ecosistema mas grande de librer&#xED;as de c&#xF3;digo abierto en el mundo.</p>
+<p>Para prodceder con la instalaci&#xF3;n nos dirigimos a la p&#xE1;gina oficial de <a href="https://nodejs.org/es/" target="_blank">Node.js</a>. Una vez dentro de la p&#xE1;gina descargamos el instalador seg&#xFA;n nuestro sistema operativo.</p>
+<p><strong>Npm</strong> es el gestor de paquetes por defecto en JavaScript. Nos permite buscar, compartir y reusar paquetes de c&#xF3;digo de diferentes desarrolladores.</p>
+<p>A continuaci&#xF3;n se muestran unas capturas que ilustran el proceso realizado.</p>
+<p><strong>Descarga del instalador:</strong></p>
+<p><img src="../../img/node1.png" alt="Descarga instalador" title="Selecci&#xF3;n instalador Node.js"></p>
+<p><strong>Apariencia del instalador:</strong></p>
+<p><img src="../../img/node2.png" alt="Apariencia del instalador" title="Apariencia del instalador"></p>
+<p>En la consola de comandos de nuestro sistema operativo tecleamos <code>node</code> y se abrir&#xE1; el int&#xE9;rprete de Node.js. En &#xE9;l se puede teclear operaciones aritm&#xE9;ticas, as&#xED; como usar funciones de JavaScript, etc. (A lo largo del curso se describir&#xE1;n m&#xE1;s funciones).</p>
+<p><strong>Apariencia del int&#xE9;rprete:</strong></p>
+<p><img src="../../img/node3.png" alt="Apariencia del int&#xE9;rprete" title="Apariencia del int&#xE9;rprete"></p>
+<p>Para acabar con esta secci&#xF3;n, hablaremos sobe npm, el gestor de paquetes de JavaScript. La siguiente imagen ilustra c&#xF3;mo es la <a href="https://nodejs.org/es/" target="_blank">p&#xE1;gina oficial de npm</a>.</p>
+<p><strong>P&#xE1;gina oficial de npm:</strong></p>
+<p><img src="../../img/npm.png" alt="P&#xE1;gina oficial npm" title="P&#xE1;gina oficial npm"></p>
+<p>Por &#xFA;ltimo comprobamos que npm est&#xE1; en su &#xFA;ltima versi&#xF3;n y que se encuentra instalado en nuestro ordenador.</p>
+<p><img src="../../img/npm2.png" alt="npm" title="npm"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Capítulo 4">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../capitulo_5/" class="navigation navigation-next " aria-label="Next page: Capítulo 5">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Node.js y npm","level":"1.5.1","depth":2,"next":{"title":"Capítulo 5","level":"1.6","depth":1,"path":"capitulos/capitulo_5/README.md","ref":"capitulos/capitulo_5/README.md","articles":[{"title":"MarkDown & Gitbook","level":"1.6.1","depth":2,"path":"capitulos/capitulo_5/contenido.md","ref":"capitulos/capitulo_5/contenido.md","articles":[]}]},"previous":{"title":"Capítulo 4","level":"1.5","depth":1,"path":"capitulos/capitulo_4/README.md","ref":"capitulos/capitulo_4/README.md","articles":[{"title":"Node.js y npm","level":"1.5.1","depth":2,"path":"capitulos/capitulo_4/contenido.md","ref":"capitulos/capitulo_4/contenido.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"capitulos/capitulo_4/contenido.md","mtime":"2017-02-11T12:15:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-11T12:24:04.226Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
