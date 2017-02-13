@@ -23,9 +23,9 @@ Tutorial sobre la configuración de las herramientas necesarias para la asignatu
 
 # Miembros del equipo
 
-* [Alejandro Arzola](http://github.com/aleag)
-* [Carlos de Armas](http://github.com/alu0100816167)
-* [Samuel Valcárcel](http://github.com/cosaca)
+* [Alejandro Arzola](http://aleag.github.io)
+* [Carlos de Armas](http://alu0100816167.github.io)
+* [Samuel Valcárcel](http://cosaca.github.io)
 
 # URL del repositorio git de la organización:
 https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-alejandro-carlos-samuel-1
