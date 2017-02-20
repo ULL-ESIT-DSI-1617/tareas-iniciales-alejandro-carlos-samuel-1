@@ -27,7 +27,12 @@ Tutorial sobre la configuración de las herramientas necesarias para la asignatu
 * [Carlos de Armas](http://alu0100816167.github.io)
 * [Samuel Valcárcel](http://cosaca.github.io)
 
+# URL del campus de la asignatura
+
+https://campusvirtual.ull.es/1617/course/view.php?id=1136
+
 # URL del repositorio git de la organización:
+
 https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-alejandro-carlos-samuel-1
 
 # GitHub pages:
@@ -37,6 +42,7 @@ https://ull-esit-dsi-1617.github.io/tareas-iniciales-alejandro-carlos-samuel-1/
 # GitBook:
 
 https://aleag.gitbooks.io/prct01-tareas-iniciales/content/
+
 # URL de la descripción de la práctica:
 
 https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html
